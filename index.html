@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Time!</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+        </div>
+        <div id="options-container">
+            <label>
+                <input type="radio" name="answer" value="A"> <span id="optionA"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="B"> <span id="optionB"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="C"> <span id="optionC"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="D"> <span id="optionD"></span>
+            </label>
+        </div>
+        <button id="submit-button">Submit</button>
+        <div id="result"></div>
+        <div id="score"></div>
+        <button id="next-button">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
